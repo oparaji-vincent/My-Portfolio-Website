@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/66d246cc68.js" crossorigin="anonymous"></script>
+    <title>MY PORTFOLIO WEBSITE</title>
+    <link rel="icon" type="image/x-icon" href="./icon/1649935097730[160].png">
+</head>
+<body>
+<!-- -----------header------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>V</span>I<span>N</span>C<span>E</span>N<span>T</span>.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"> </i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi i'm <span>Vincent</span><br>Dominic <span><br>Oparaji<br></span>from Nigeria.</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/PABLO DC.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developement</span><br>Web app Developement</li>
+                            <li><span>App Developement</span><br>Building Android/iOS apps</li>
+                            <li><span>Cloud Engineering</span><br>Building and Maintain Cloud Solution</li>
+                            <li><span>Full-stack Engineering</span><br>Create Software, Applications, and Scalable Web Services, while also providing Leadership for Coding Teams</li>
+                            <li><span>Python Developement</span><br>web framework that allows to quickly create efficient web pages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at Lagos School of Programming(LASOP).</li>
+                            <li><span>2021 - Current</span><br>Team lead at Lagos School of Programming(LASOP).</li>
+                            <li><span>2021 - Current</span><br>Executive at AltSchool Africa.</li>
+                            <li><span>2021 - Current</span><br>Internship at Lagos School of Programming(LASOP).</li>
+                            <li><span>2021 - Current</span><br>Internship at Lagos School of Programming(LASOP).</li>
+                            <li><span>2021 - Current</span><br>Internship at Lagos School of Programming(LASOP).</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>UI/UX Design Training at Lagos School of Programming(LASOP).</li>
+                            <li><span>2021</span><br>CWP at Lagos School of Programming(LASOP).</li>
+                            <li><span>2021</span><br>MCSD at Lagos School of Programming(LASOP).</li>
+                            <li><span>2022</span><br>CompTIA Cloud+ at AltSchool Africa.</li>
+                            <li><span>2022</span><br>IBM at AltSchool Africa.</li>
+                            <li><span>2022</span><br>PCEP at AltSchool Africa.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>As web designer, i  works on the appearance, layout, and, in some cases, content of a website. Appearance, for instance, relates to the colors, font, and images used on the web interface.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX design accepts that we must design for the experience, not the aesthetic. User Interface (UI) design is a technique designers use to create user interfaces in software or electronic devices with a focus on aesthetics or style.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App developers understand coding languages and how to use them, and may also work alongside graphic artists, data scientists, and other software experts to create applications. They also test and fix any bugs that are found before the product is launched.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h2>Cloud Engineering</h2>
+                <p>Cloud engineers can have more specific roles that include cloud architecting (designing cloud solutions for organizations), development (coding for the cloud), and administration (working with cloud networks).</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-stack-overflow"></i>
+                <h2>Full-stack Engineer</h2>
+                <p>A full-stack engineer is a high-level software engineer that works to design, test, and implement various software applications. They create software, applications, and scalable web services, while also providing leadership for coding teams.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Developer</h2>
+                <p>Becoming proficient in Python and its uses opens the door to job possibilities in various industries. Ultimately, your role and responsibilities will likely vary depending upon the industry and organization that you find yourself working within.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people arround the world. Download it from play store.</p>
+                    <a href="https://play.google.com/store/apps"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people arround the world. Download it from play store.</p>
+                    <a href="https://play.google.com/store/apps"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people arround the world. Download it from play store.</p>
+                    <a href="https://play.google.com/store/apps"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> oparaji1235@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i> +234(0)9027615780</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100087965179974"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/VincentOparaji"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/pablo_dc1235/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vincent-oparaji-6b7978239/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/Aka's CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Vincent, made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+</body>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQF04bffkZYWgjOb_d0xtiiD2QyBvzGA9cBXvW6hvWlfOFo6VSa7Fb1kl1Au4mN3M/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script src="./script.js"></script>
+</html>
